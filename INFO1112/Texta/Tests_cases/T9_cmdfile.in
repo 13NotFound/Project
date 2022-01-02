@@ -1,0 +1,3 @@
+filter "INFO1110"
+fields "," 10 0 1    # a string index, a out of range index
+count   # print the number of lines

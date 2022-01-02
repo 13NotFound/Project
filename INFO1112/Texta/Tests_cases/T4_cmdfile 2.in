@@ -1,0 +1,3 @@
+filter      "1110"  # select students in INFO1110
+
+count   # print the number of lines

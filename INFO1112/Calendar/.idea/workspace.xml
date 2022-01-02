@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab696a83-36aa-43b1-9d1a-be7ffdb1a439" name="Default Changelist" comment="meow" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/cald" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1ytrU5iGzXXgLTExJbGPRICptGE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cald/daemon_test_cases" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cald/daemon_test_cases" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cald" />
+      <recent name="$PROJECT_DIR$/cald/test_cases" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab696a83-36aa-43b1-9d1a-be7ffdb1a439" name="Default Changelist" comment="" />
+      <created>1633081738628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633081738628</updated>
+    </task>
+    <task id="LOCAL-00039" summary="meow">
+      <created>1633264306779</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1633264306779</updated>
+    </task>
+    <task id="LOCAL-00040" summary="meow">
+      <created>1633265630114</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1633265630114</updated>
+    </task>
+    <task id="LOCAL-00041" summary="meow">
+      <created>1633267673021</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1633267673021</updated>
+    </task>
+    <task id="LOCAL-00042" summary="meow">
+      <created>1633268018121</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1633268018121</updated>
+    </task>
+    <task id="LOCAL-00043" summary="meow">
+      <created>1633268190317</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1633268190317</updated>
+    </task>
+    <task id="LOCAL-00044" summary="meow">
+      <created>1633268471745</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1633268471745</updated>
+    </task>
+    <task id="LOCAL-00045" summary="meow">
+      <created>1633268904703</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1633268904703</updated>
+    </task>
+    <task id="LOCAL-00046" summary="meow">
+      <created>1633269192137</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1633269192137</updated>
+    </task>
+    <task id="LOCAL-00047" summary="meow">
+      <created>1633269377993</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1633269377993</updated>
+    </task>
+    <task id="LOCAL-00048" summary="meow">
+      <created>1633269948762</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1633269948762</updated>
+    </task>
+    <task id="LOCAL-00049" summary="meow">
+      <created>1633270271244</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1633270271244</updated>
+    </task>
+    <task id="LOCAL-00050" summary="meow">
+      <created>1633316380536</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1633316380545</updated>
+    </task>
+    <task id="LOCAL-00051" summary="meow">
+      <created>1633318504026</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1633318504027</updated>
+    </task>
+    <task id="LOCAL-00052" summary="meow">
+      <created>1633318846370</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1633318846370</updated>
+    </task>
+    <task id="LOCAL-00053" summary="meow">
+      <created>1633318963546</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1633318963546</updated>
+    </task>
+    <task id="LOCAL-00054" summary="meow">
+      <created>1633849607793</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1633849607794</updated>
+    </task>
+    <task id="LOCAL-00055" summary="meow">
+      <created>1633849622939</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1633849622940</updated>
+    </task>
+    <task id="LOCAL-00056" summary="meow">
+      <created>1633935483209</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1633935483211</updated>
+    </task>
+    <task id="LOCAL-00057" summary="meow">
+      <created>1633935781560</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1633935781560</updated>
+    </task>
+    <task id="LOCAL-00058" summary="meow">
+      <created>1633936909898</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1633936909899</updated>
+    </task>
+    <task id="LOCAL-00059" summary="meow">
+      <created>1634042528863</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1634042528864</updated>
+    </task>
+    <task id="LOCAL-00060" summary="meow">
+      <created>1634042697107</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1634042697107</updated>
+    </task>
+    <task id="LOCAL-00061" summary="meow">
+      <created>1634043984970</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1634043984970</updated>
+    </task>
+    <task id="LOCAL-00062" summary="meow">
+      <created>1634044767281</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1634044767282</updated>
+    </task>
+    <task id="LOCAL-00063" summary="meow">
+      <created>1634044937838</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1634044937838</updated>
+    </task>
+    <task id="LOCAL-00064" summary="meow">
+      <created>1634045930992</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1634045930993</updated>
+    </task>
+    <task id="LOCAL-00065" summary="meow">
+      <created>1634046357017</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1634046357019</updated>
+    </task>
+    <task id="LOCAL-00066" summary="meow">
+      <created>1634094976547</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1634094976549</updated>
+    </task>
+    <task id="LOCAL-00067" summary="meow">
+      <created>1634268771574</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1634268771575</updated>
+    </task>
+    <task id="LOCAL-00068" summary="meow">
+      <created>1634268963038</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1634268963038</updated>
+    </task>
+    <task id="LOCAL-00069" summary="meow">
+      <created>1634269605721</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1634269605721</updated>
+    </task>
+    <task id="LOCAL-00070" summary="meow">
+      <created>1634272611502</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1634272611503</updated>
+    </task>
+    <task id="LOCAL-00071" summary="meow">
+      <created>1634299188516</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1634299188517</updated>
+    </task>
+    <task id="LOCAL-00072" summary="meow">
+      <created>1634341754493</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1634341754493</updated>
+    </task>
+    <task id="LOCAL-00073" summary="meow">
+      <created>1634343087338</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1634343087340</updated>
+    </task>
+    <task id="LOCAL-00074" summary="meow">
+      <created>1634343965399</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1634343965400</updated>
+    </task>
+    <task id="LOCAL-00075" summary="meow">
+      <created>1634344100956</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1634344100956</updated>
+    </task>
+    <task id="LOCAL-00076" summary="meow">
+      <created>1634344443669</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1634344443669</updated>
+    </task>
+    <task id="LOCAL-00077" summary="meow">
+      <created>1634344907601</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1634344907601</updated>
+    </task>
+    <task id="LOCAL-00078" summary="meow">
+      <created>1634362006147</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1634362006148</updated>
+    </task>
+    <task id="LOCAL-00079" summary="meow">
+      <created>1634362034458</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1634362034459</updated>
+    </task>
+    <task id="LOCAL-00080" summary="meow">
+      <created>1634362600639</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1634362600639</updated>
+    </task>
+    <task id="LOCAL-00081" summary="meow">
+      <created>1634362801270</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1634362801270</updated>
+    </task>
+    <task id="LOCAL-00082" summary="meow">
+      <created>1634434283076</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1634434283077</updated>
+    </task>
+    <task id="LOCAL-00083" summary="meow">
+      <created>1634434718803</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1634434718804</updated>
+    </task>
+    <task id="LOCAL-00084" summary="meow">
+      <created>1634434931707</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1634434931707</updated>
+    </task>
+    <task id="LOCAL-00085" summary="meow">
+      <created>1634453994916</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1634453994917</updated>
+    </task>
+    <task id="LOCAL-00086" summary="meow">
+      <created>1634462714546</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1634462714547</updated>
+    </task>
+    <task id="LOCAL-00087" summary="meow">
+      <created>1634463146110</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1634463146111</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="meow" />
+    <option name="LAST_COMMIT_MESSAGE" value="meow" />
+  </component>
+</project>

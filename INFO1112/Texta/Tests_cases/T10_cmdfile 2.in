@@ -1,0 +1,2 @@
+replace "1110 "1113" //string argument not enclosed by double quote
+count   # print the number of lines

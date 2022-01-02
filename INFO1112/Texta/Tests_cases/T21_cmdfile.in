@@ -1,0 +1,4 @@
+filter "INFO1110"  # select students in INFO1110
+fields "," 2       # replace matching lines with the email address
+replace "sydney." ""
+count   # print the number of lines

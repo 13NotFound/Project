@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "__bit_reference": "c",
+        "bitset": "c",
+        "vector": "c"
+    }
+}

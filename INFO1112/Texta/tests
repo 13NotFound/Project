@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd ./Tests_cases/
+
+VAR=$(find . -name "*.sh")
+for files in $VAR;
+do
+  echo Testcases: "$files"
+  $files
+done

@@ -1,0 +1,3 @@
+filter "INFO1110"  # select students in INFO1110
+replace "INFO1110" "INFO1113" "INFO1111"
+count   # print the number of lines
