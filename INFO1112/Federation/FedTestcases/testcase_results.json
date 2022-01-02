@@ -1,0 +1,38 @@
+[
+    {
+        "FED_out_channels": "Failed"
+    },
+    {
+        "FED_SAY_channels": "Failed"
+    },
+    {
+        "SAY_channels": "Passed"
+    },
+    {
+        "multiple_channels_output": "Failed"
+    },
+    {
+        "valid_create_join": "Passed"
+    },
+    {
+        "valid_login_register": "Passed"
+    },
+    {
+        "valid_say_recv": "Failed"
+    },
+    {
+        "invalid_command": "Failed"
+    },
+    {
+        "invalid_create": "Passed"
+    },
+    {
+        "invalid_join": "Passed"
+    },
+    {
+        "invalid_say_recv": "Passed"
+    },
+    {
+        "invalid_login_register": "Failed"
+    }
+]
