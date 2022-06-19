@@ -1,0 +1,5 @@
+REGISTER x y
+LOGIN x y
+CREATE c
+JOIN c
+LOGOUT

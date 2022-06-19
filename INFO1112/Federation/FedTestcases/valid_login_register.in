@@ -1,0 +1,5 @@
+REGISTER person1 password
+LOGIN person1 password
+REGISTER person2 password2
+LOGIN person2 password2
+LOGOUT

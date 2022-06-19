@@ -1,0 +1,6 @@
+REGISTER person1 password
+CREATE channel1
+LOGIN person1 password
+CREATE channel1
+CREATE channel1
+LOGOUT
