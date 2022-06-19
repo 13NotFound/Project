@@ -1,0 +1,100 @@
+{% extends "base.html" %} {% block title %}Login{% endblock %} {% block content
+%}
+<!-- SocketIO JS -->
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.5/socket.io.min.js"></script>
+
+<!-- Custom SocketIO JS -->
+<script src="{{ url_for('static', filename='scripts/chat_rooms.js') }}"></script>
+
+<!-- Main section start -->
+    <div id="main-section">
+
+        <!-- Sidebar start -->
+        <nav id="sidebar">
+            <h4>Chat with {{ friend }}</h4>
+
+        </nav>
+        <!-- Sidebar end -->
+
+        <!-- Rightside pannel start -->
+        <div id="rightside-pannel">
+            <!-- Display message start-->
+            <div id="display-message-section">
+            <ul class="list-group list-group-flush" id="Message">
+              {% for msg in user.msg %}
+                {% if msg.receiver == friend or msg.sender == friend %}
+                  <li class="list-group-item">
+                      <script>
+                          try {
+                              const request = indexedDB.open("myDatabase", 1);
+                              request.onsuccess = function (event) {
+                                  let db = request.result;
+                                  let request_1 = db.transaction('user', "readonly").objectStore('user').get(username);
+                                  let request_2 = db.transaction('user', "readonly").objectStore('user').get(friendname);
+                                  request_1.onsuccess = async () => {
+                                      request_2.onsuccess = async () => {
+                                          let PrK = await importPrivateKey(request_1.result.PrK)
+                                          if (`{{msg.sender}}` === username) {
+                                              SPbK = await importPublicSignKey(request_1.result.SPbK)
+
+                                          } else if (`{{msg.sender}}` === friendname) {
+                                              SPbK = await importPublicSignKey(request_2.result.SPbK)
+                                          }
+                                          decryptMessage(PrK, convertBase64ToArrayBuffer(`{{msg.message}}`)).then(async result => {
+                                              if (await verifyMsg(SPbK, convertBase64ToArrayBuffer(`{{msg.signature}}`), result)) {
+                                                  console.log(result, "verified")
+                                              } else {
+                                                  alert("some message has been modified or not from actual sender!")
+                                                  console.log(result, "danger!! modified")
+                                              }
+                                          })
+                                      }
+                                  }
+                              }
+                          } catch (DOMException){
+                              alert("Error in decryption, message has impaired")
+                          }
+                      </script>
+                      <dt>{{ msg.sender }} -------- {{msg.date}} --------</dt>
+                      <dd>{{ msg.message }}</dd>
+                  </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            </div>
+            <!-- Display message end -->
+
+            <!-- Type message start -->
+           <div id="input-area" class="input-group mb-3">
+                <input type="text" id="user_message" class="form-control" placeholder="Type here..." aria-label="Type a message" aria-describedby="basic-addon2" autocomplete="off">
+                <div class="input-group-append">
+                    <button id="send_message" class="btn btn-warning" type="button">SEND <i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+            <input type="hidden" id="msg" >
+
+            <input type="hidden" id="history" >
+            <input type="hidden" id="signature" >
+
+            <!-- Type message end -->
+        </div>
+        <!-- Rightside pannel end -->
+    <!-- Main section end -->
+    </div>
+    <script> type="text/javascript"
+        const username = `{{ user.user_name}}`
+        const friendname = `{{ friend }}`
+    </script>
+
+
+
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+{% endblock %}

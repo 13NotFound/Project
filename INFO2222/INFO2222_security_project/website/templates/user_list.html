@@ -1,0 +1,36 @@
+{% extends "base.html" %} {% block title %}Edit Profile{% endblock %} {% block content
+%}
+<link href="https://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+<div class="container bootstrap snippets bootdey">
+  <div class="header">
+    <h3 class="text-muted prj-name">
+        <span class="fa fa-users fa-2x"></span>
+        Users
+    </h3>
+  </div>
+    <ul class="list-group">
+        {% for each_user in users %}
+            {% if each_user.user_name != user.user_name%}
+                {% if each_user.mute %}
+                <div>
+                <li class="list-group-item">
+
+                    <h3> <a href="/posts/{{each_user.user_name}}">{{each_user.user_name}}</a>
+                        <button id="unmute-button-{{each_user.id}}" class="btn btn-warning pull-right" type="button" onclick="unmute({{each_user.id}})">UNMUTE</button>
+                    </h3>
+
+                </div>
+                {% else %}
+                <div>
+                    <li class="list-group-item"> <h3>{{each_user.user_name}}
+                    <button id="mute-button-{{each_user.id}}" class="btn btn-warning pull-right" type="button" onclick="mute({{each_user.id}})">MUTE</button>
+                </h3>
+                </div>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endblock %}
