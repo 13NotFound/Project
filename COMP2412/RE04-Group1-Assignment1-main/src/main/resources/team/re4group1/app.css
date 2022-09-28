@@ -1,0 +1,8 @@
+/* this place to store global style attribute */
+#root{
+    -fx-font-family: Roboto, Arial;
+}
+
+#splitPaneLeft {
+    /*-fx-background-color: linear-gradient(to right, red, blue);*/
+}

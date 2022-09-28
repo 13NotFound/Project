@@ -1,0 +1,49 @@
+#splitPaneLeft {
+    /*-fx-background-color: #E3F2FD;*/
+}
+
+#navi-left-button-vbox{
+    -fx-padding: 50px 0;
+    -fx-spacing: 4px;
+}
+
+.navi-button{
+    -fx-cursor: hand; /* when mouse move onto button, cursor will change to pointer */
+    -fx-border-width: 0; /* remove strange edge */
+    -fx-text-fill: text_color;
+    -fx-background-color: tab_pane_background_color;
+    -fx-background-radius: 3px;
+}
+
+#navi-button .ikonli-font-icon {
+    -fx-text-fill: icon-color;
+}
+
+#navi-button:focused .ikonli-font-icon {
+    -fx-icon-color: #0D47A1;
+}
+
+#navi-button:pressed{
+    -fx-background-color: #64B5F6;
+    -fx-text-fill: #0D47A1;
+}
+
+#navi-button:pressed .ikonli-font-icon {
+    -fx-icon-color: #0D47A1;
+}
+
+.navi-button:focused{
+    -fx-border-width: 0; /* remove strange edge */
+    -fx-background-color: #64B5F6;
+    -fx-text-fill: #0D47A1;
+}
+
+.navi-button-on-focus{
+    -fx-background-color: #64B5F6 !important;
+    -fx-text-fill: #0D47A1;
+}
+
+.navi-button:hover{
+    -fx-background-color: rgba(187, 222, 251, 0.8);
+    -fx-border-width: 0; /* remove strange edge */
+}

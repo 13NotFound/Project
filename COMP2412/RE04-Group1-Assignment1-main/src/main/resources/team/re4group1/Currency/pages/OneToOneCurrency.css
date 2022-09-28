@@ -1,0 +1,13 @@
+#oneToOneCurrency-container-vbox{
+    -fx-padding: 20px;
+}
+
+#oneToOneCurrency-textField{
+    -fx-background-insets: 0, 0 0 0 0;
+    -fx-background-radius: 1 0 0 1;
+}
+
+#oneToOneCurrency-choice{
+    -fx-background-insets: 0, 0 0 0 1;
+    -fx-background-radius: 0 1 1 0;
+}

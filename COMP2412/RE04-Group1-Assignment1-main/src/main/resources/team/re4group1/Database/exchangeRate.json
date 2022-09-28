@@ -1,0 +1,132 @@
+{
+  "exchangeDays": [
+    {
+      "moneyList": [
+        {
+          "symbol": "AUD",
+          "exchangeRate": {
+            "EUR": 0.5,
+            "USD": 0.7,
+            "CNY": 5.1
+          },
+          "valuedUp": {
+            "EUR": false,
+            "USD": false,
+            "CNY": true
+          }
+        },
+        {
+          "symbol": "USD",
+          "exchangeRate": {
+            "AUD": 1.3,
+            "EUR": 0.8,
+            "CNY": 6.9
+          },
+          "valuedUp": {
+            "AUD": true,
+            "EUR": false,
+            "CNY": false
+          }
+        },
+        {
+          "symbol": "EUR",
+          "exchangeRate": {
+            "AUD": 0.5,
+            "USD": 0.7,
+            "CNY": 5.1
+          },
+          "valuedUp": {
+            "AUD": false,
+            "USD": false,
+            "CNY": true
+          }
+        },
+        {
+          "symbol": "CNY",
+          "exchangeRate": {
+            "AUD": 1.3,
+            "EUR": 0.8,
+            "USD": 6.9
+          },
+          "valuedUp": {
+            "AUD": true,
+            "EUR": false,
+            "USD": false
+          }
+        }
+      ],
+      "date": "Sep 9, 2022, 12:00:00 AM"
+    },
+    {
+      "moneyList": [
+        {
+          "symbol": "AUD",
+          "exchangeRate": {
+            "EUR": 0.6,
+            "USD": 0.8,
+            "CNY": 5.0,
+            "JPY": 1.0
+          },
+          "valuedUp": {
+            "EUR": true,
+            "USD": true,
+            "CNY": false
+          }
+        },
+        {
+          "symbol": "USD",
+          "exchangeRate": {
+            "AUD": 1.2,
+            "EUR": 0.9,
+            "CNY": 7.0,
+            "JPY": 0.05
+          },
+          "valuedUp": {
+            "AUD": false,
+            "EUR": true,
+            "CNY": true
+          }
+        },
+        {
+          "symbol": "EUR",
+          "exchangeRate": {
+            "AUD": 0.6,
+            "USD": 0.8,
+            "CNY": 5.0,
+            "JPY": 1.0
+          },
+          "valuedUp": {
+            "AUD": true,
+            "USD": true,
+            "CNY": false
+          }
+        },
+        {
+          "symbol": "CNY",
+          "exchangeRate": {
+            "AUD": 1.2,
+            "EUR": 0.9,
+            "USD": 7.0,
+            "JPY": 1.0
+          },
+          "valuedUp": {
+            "AUD": false,
+            "EUR": true,
+            "USD": true
+          }
+        },
+        {
+          "symbol": "JPY",
+          "exchangeRate": {
+            "AUD": 1.0,
+            "EUR": 1.0,
+            "USD": 20.0,
+            "CNY": 1.0
+          },
+          "valuedUp": {}
+        }
+      ],
+      "date": "Sep 10, 2022, 12:00:00 AM"
+    }
+  ]
+}
